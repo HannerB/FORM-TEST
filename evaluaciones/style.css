@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid green;
+    box-shadow: 0 0 11px 5px rgb(0, 0, 0, 0.1);
+    border-radius: 5px 5px 0 0;
+}
+
+header .logo img{
+    padding: 5px 0 0 0;
+    width: 90px;
+    height: auto;
+}
+
+.navlist{
+    align-items: center;
+    padding: 40px;
+}
+
+.navlist ul{
+    display: flex;
+    gap: 2em;
+}
+
+.navlist a{
+    color: #303030;
+}
+
+.form-container{
+    display: flex;
+    max-width: 1000px;
+    margin: 50px 100px 100px 100px;
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    background-color: rgba(174, 174, 174, 0.2);
+}
+
+.campo{
+    display: inline-block;
+    margin: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-bottom: 0 solid #303030;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    border-bottom: 4px;
+}
+
+.form-container .campo label{
+    margin: 5px;
+    display: block;
+}
+
+input{
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    border: 1px solid #f9f9f9;
+    padding: 10px;
+    transition: all  .55s ease;
+    border: #303030;
+}
+
+input:hover{
+    color: rgb(0, 0, 0);
+}
+
+select{
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    border: 1px solid #f9f9f9;
+    padding: 10px 30px;
+}
+
+.boton{
+    display: inline-flex;
+    border-radius: 5px;
+    margin-left: 30px ;
+    padding: 10px 20px;
+    background-color: #39a900;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
